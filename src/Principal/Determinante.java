@@ -84,7 +84,7 @@ public class Determinante {
         x= detX / detGe;
         y= detY / detGe;
         z= detZ / detGe;
-        mensaje = "x = "+x +"|y= "+y + "|z ="+z;
+        mensaje = "x = "+x +" \ny= "+y + " \nz ="+z;
         return mensaje;
     }
 }
