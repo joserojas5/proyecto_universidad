@@ -231,7 +231,7 @@ public class Matriz2x2 extends javax.swing.JFrame {
         calculo = new Calculos(matrizX2);
         int det = calculo.CalculoDeterX2(matrizX2);
         lblD.setText(String.valueOf(det));
-        //  if(det != 0){
+       
         int x = calculo.CalculoVarX(det, matrizX2);
         int detX = matrizX2[0][2]*matrizX2[1][1] - (matrizX2[1][2]*matrizX2[0][1]);
 
